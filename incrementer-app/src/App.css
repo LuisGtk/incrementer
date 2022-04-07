@@ -13,6 +13,12 @@
   }
 }
 
+@media (min-width: 600px) {
+  body {
+    background: thistle;
+  }
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -32,7 +38,21 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+header{
+  display: flex;
+justify-content: space-around;
+}
+.flex{
+  display: flex;
+}
+
+button{
+  display: flex;
+  flex-direction:row;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
