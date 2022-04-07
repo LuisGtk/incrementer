@@ -6,6 +6,7 @@ const App = () => {
   const [count, setCount] = useState(0)
   return <>
   <header> 
+    {/* cunter on page */}
     Count: {count}
     </header>
     <div class="flex"> 

@@ -15,7 +15,7 @@
 
 @media (min-width: 600px) {
   body {
-    background: thistle;
+    background: rgb(193, 191, 216);
   }
 }
 
@@ -49,10 +49,14 @@ justify-content: space-around;
 }
 .flex{
   display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
 }
 
 button{
   display: flex;
-  flex-direction:row;
+  border-radius: 12px;
+  font-size: 20px;
+  background-color: rgb(103, 154, 231);
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
